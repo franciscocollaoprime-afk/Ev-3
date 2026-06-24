@@ -2,7 +2,7 @@
   "name": "web",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/franciscocollaoprime-afk/Ev-3",
+  "homepage": "https://franciscocollaoprime-afk.github.io/Ev-3",
   "type": "module",
   "scripts": {
     "dev": "vite",
