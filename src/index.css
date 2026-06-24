@@ -1,0 +1,68 @@
+body {
+  background-color: #5d5d5d !important;
+  color: #000000;
+}
+.app-title {
+  font-family: 'Arial Black', sans-serif;
+  color: #111111;
+  text-align: left;
+}
+.post-it {
+  background-color: #fef5c1;
+  color: #000;
+  min-height: 220px;
+  padding: 20px;
+  box-shadow: 15px 15px 9.5px rgba(0, 0, 0, 0.3);
+  border: none !important;
+  border-radius: 0px !important;
+  position: relative;
+  transition: transform 0.15s linear;
+}
+.post-it.importante {
+  background-color: #ff5733 !important;
+}
+.post-it-title {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.post-it-body {
+  font-family: 'Comic Sans MS', 'Caveat', cursive, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+.post-it .btn-close-custom {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #000;
+}
+.post-it .btn-close-custom:hover {
+  color: #ff0000;
+}
+.grid-container:nth-child(even) .post-it {
+  transform: rotate(3deg);
+}
+.grid-container:nth-child(odd) .post-it {
+  transform: rotate(-3.5deg);
+}
+.grid-container:nth-child(3n) .post-it {
+  transform: rotate(2deg);
+}
+.form-simulador {
+  background: transparent !important;
+  border: none !important;
+}
+.btn-agregar {
+  background-color: #24292e !important;
+  color: #fff !important;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+}
